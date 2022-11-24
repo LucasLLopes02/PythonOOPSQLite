@@ -6,9 +6,10 @@ class Pessoa:
   #Método Construtor
   def __init__(self, id, nome):
     self.id = id
-    self.none = nome
+    self.nome = nome
 
   #Método para ajudar na exibição
   def __str__(self):
     return f"{self.nome} ({self.id})"
+
     
